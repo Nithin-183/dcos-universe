@@ -76,7 +76,7 @@ At a minimum, you will need to enter a license key.
 
 ![aqua-web license](./images/aqua4.0-dcos-license.png)
 
-You will also need to decide how you will get the images into the environment. The Aqua images are hosted in private Docker Hub repositories, however you are free to push them to an internal registry if you like (this is a common enterprise scenerio).
+You will also need to decide how you will get the images into the environment. The Aqua images are hosted in private Docker Hub repositories, however you are free to push them to an internal registry if you like (this is a common enterprise scenario).
 
 DC/OS and Marathon has some interesting behavior around authentication to private registries. You can see this documented [here](https://mesosphere.github.io/marathon/docs/native-docker-private-registry.html).
 
